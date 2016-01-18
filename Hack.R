@@ -1,5 +1,5 @@
 library(caret)
-setwd("~/Documents/BingHackathon/")
+setwd("~/Documents/BingHackathon/HackCode/")
 trndta <- read.csv("BingHackathonTrainingData.txt",header = FALSE,sep = "\t")
 names(trndta) <- c("ID","topic","pYear","author", "title","summary")
 summary(trndta$topic)
